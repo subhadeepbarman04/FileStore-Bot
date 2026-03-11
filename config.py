@@ -92,7 +92,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "rohit_1888")
+OWNER_TAG = os.environ.get("OWNER_TAG", "SIGMA_BOY_04")
 UPI_ID = os.environ.get("UPI_ID", "mrsubhadeep@fam")
 QR_PIC = os.environ.get("QR_PIC", "")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"")
