@@ -28,10 +28,10 @@ OWNER = os.environ.get("OWNER", "SIGMA") # Owner username without @SIGMA_BOY_04
 OWNER_ID = int(os.environ.get("OWNER_ID", "7073149896")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
-BASE_URL = os.environ.get("BASE_URL", "")  # e.g. https://your-domain.com
+BASE_URL = os.environ.get("BASE_URL", "https://t.me/+H_KbGun1bcsxYjQ9")  # e.g. https://your-domain.com
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://subhadeepbarman74375:<db_password>@cluster0.mz9ug.mongodb.net/?appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+DB_NAME = os.environ.get("DATABASE_NAME", "MongoDB")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
