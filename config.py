@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7715827185:")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7715827185:AAFqAAzWnU0bHO7sW5-64fYqbG_LK1dHOpk")
 APP_ID = int(os.environ.get("APP_ID", "25580827")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "e7f398847755449564652e1e641a7fe4") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -31,7 +31,7 @@ PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "")  # e.g. https://your-domain.com
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://subhadeepbarman74375:<db_password>@cluster0.mz9ug.mongodb.net/?appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+DB_NAME = os.environ.get("DATABASE_NAME", "mongodb")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
